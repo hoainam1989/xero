@@ -5,7 +5,7 @@ var xml2js = require('xml2js');
 var inflect = require('inflect');
 
 var XERO_BASE_URL = 'https://api.xero.com';
-var XERO_API_URL = XERO_BASE_URL + '/api.xro/2.0';
+var XERO_API_URL = XERO_BASE_URL + '/payroll.xro/1.0';
 
 function Xero(key, secret, rsa_key, showXmlAttributes, customHeaders) {
     this.key = key;
